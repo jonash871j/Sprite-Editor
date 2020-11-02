@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{2bebae9c-ed9b-4517-a06b-7a7fdb61cdd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{cc1e0804-4092-417d-88dd-4bda06116b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Classes">
+      <UniqueIdentifier>{10df8804-8b81-44ee-b277-50265508834e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Editor">
+      <UniqueIdentifier>{25336bd5-467d-4f22-850e-47cdb04df25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Editor\Draw">
+      <UniqueIdentifier>{6ed844e3-3ff8-426b-95fd-bd4e41423074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Editor\Class">
+      <UniqueIdentifier>{ac7e034c-371e-4ea1-850b-858b3afd15e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Editor\Input">
+      <UniqueIdentifier>{e8ef5a2b-0b13-4fc7-ad98-500cd40d2eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Editor\Main">
+      <UniqueIdentifier>{2697eb78-7fcb-47b6-8239-7f8c82f4fe52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Editor\Filestream">
+      <UniqueIdentifier>{edca05be-c2ac-40c2-8876-9234b09b3816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Editor\Draw\SpriteEditor">
+      <UniqueIdentifier>{de76ae55-e549-4b0a-85ae-81c731bc051f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Editor\Input\SpriteEditor">
+      <UniqueIdentifier>{22f89546-c7fe-4267-988e-7b66261c2c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Editor\Input\File">
+      <UniqueIdentifier>{1842740a-f11c-421f-bca8-01a43ac8fc89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineCore.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Header Files\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Header Files\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="PremadeScene.h">
+      <Filter>Header Files\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Show.h">
+      <Filter>Header Files\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Header Files\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files\Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorDrawShowPalette.h">
+      <Filter>Header Files\Editor\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorDraw.h">
+      <Filter>Header Files\Editor\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorDrawNewSprite.h">
+      <Filter>Header Files\Editor\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorCreateGui.h">
+      <Filter>Header Files\Editor\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorMainGUI.h">
+      <Filter>Header Files\Editor\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorInput.h">
+      <Filter>Header Files\Editor\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorInputMainBar.h">
+      <Filter>Header Files\Editor\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorInputToolBar.h">
+      <Filter>Header Files\Editor\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorInputShowPaletteGUI.h">
+      <Filter>Header Files\Editor\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorCore.h">
+      <Filter>Header Files\Editor\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorFunctions.h">
+      <Filter>Header Files\Editor\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorVariables.h">
+      <Filter>Header Files\Editor\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorDrawLoadSprite.h">
+      <Filter>Header Files\Editor\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="FileACXSPR.h">
+      <Filter>Header Files\Editor\Filestream</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorDrawSpriteEditor.h">
+      <Filter>Header Files\Editor\Draw\SpriteEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorDrawSpritePreview.h">
+      <Filter>Header Files\Editor\Draw\SpriteEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorInputSpriteEditorWorkspace.h">
+      <Filter>Header Files\Editor\Input\SpriteEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorInputSpriteEditorColorBar.h">
+      <Filter>Header Files\Editor\Input\SpriteEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorInputSpriteEditorCharacterbar.h">
+      <Filter>Header Files\Editor\Input\SpriteEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorInputSpriteEditorPreview.h">
+      <Filter>Header Files\Editor\Input\SpriteEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorInputNewSpriteGUI.h">
+      <Filter>Header Files\Editor\Input\File</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorInputLoadSpriteGUI.h">
+      <Filter>Header Files\Editor\Input\File</Filter>
+    </ClInclude>
+    <ClInclude Include="FileACSPR.h">
+      <Filter>Header Files\Editor\Filestream</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PremadeScene.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Show.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorCreateGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorMainGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
